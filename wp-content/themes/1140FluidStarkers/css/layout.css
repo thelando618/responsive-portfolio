@@ -16,11 +16,44 @@ li#theme-switcher { background:#fff; border:10px solid red; padding:20px; positi
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
-
+	html {
+		background: url(../images/bodybg.jpg) repeat 0 0;
+	}
 	body {
 		
 	}
-	
+	header {
+		padding-top: 3em;
+	}
+	header #logo {
+		background: url(../images/logo.png) no-repeat 0 0;
+		display: block;
+		height: 2em;
+		width: 21.51625em;
+	}
+	header .fourcol ul {
+	}
+	header .fourcol ul li {
+		float:left;
+	}
+	header .fourcol ul li a {
+		color: #000000;
+		font-size: 14px;
+		font-style: italic;
+		font-weight: bold
+	}
+	header .fourcol ul li a:hover, header .fourcol ul li.current-menu-item a {
+		background-color: #a5352a;
+		border: 1px solid #811313;
+		border-radius: 10px;
+		color: #ffffff;
+		padding: 5px;
+		text-shadow: 1px 1px 1px #490707;
+		-moz-text-shadow: 1px 1px 1px #490707;
+		-webkit-text-shadow: 1px 1px 1px #490707;
+		-o-text-shadow: 1px 1px 1px #490707;
+	}
+		
 
 /* ============================= */
 /* ! Layout for mobile version   */

@@ -27,7 +27,7 @@
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
 
 			<ul class="xoxo">
-				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
+				<?php //dynamic_sidebar( 'secondary-widget-area' ); ?>
 			</ul>
 
 <?php endif; ?>
