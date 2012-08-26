@@ -35,19 +35,22 @@ li#theme-switcher { background:#fff; border:10px solid red; padding:20px; positi
 	}
 	header .fourcol ul li {
 		float:left;
+		margin-right: 2em;
 	}
 	header .fourcol ul li a {
 		color: #000000;
 		font-size: 14px;
 		font-style: italic;
-		font-weight: bold
+		font-weight: bold;
+		line-height: 2em;
+		padding: 0.214em 0.571em;
+		text-decoration: none;
 	}
 	header .fourcol ul li a:hover, header .fourcol ul li.current-menu-item a {
 		background-color: #a5352a;
 		border: 1px solid #811313;
 		border-radius: 10px;
 		color: #ffffff;
-		padding: 5px;
 		text-shadow: 1px 1px 1px #490707;
 		-moz-text-shadow: 1px 1px 1px #490707;
 		-webkit-text-shadow: 1px 1px 1px #490707;
